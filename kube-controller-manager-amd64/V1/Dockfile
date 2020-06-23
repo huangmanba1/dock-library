@@ -1,10 +1,2 @@
 
 FROM gcr.io/ml-pipeline/api-server:0.2.5
-FROM gcr.io/kubeflow-images-public/ingress-setup:latest
-FROM gcr.io/kubeflow-images-public/kubernetes-sigs/application:1.0-beta
-FROM gcr.io/kfserving/kfserving-controller:0.2.2
-FROM gcr.io/ml-pipeline/visualization-server:0.2.5
-FROM gcr.io/ml-pipeline/persistenceagent:0.2.5
-FROM gcr.io/ml-pipeline/scheduledworkflow:0.2.5
-FROM gcr.io/ml-pipeline/frontend:0.2.5
-FROM gcr.io/ml-pipeline/viewer-crd-controller:0.2.5
